@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Makasar&display=swap');
+body{
+  overflow-x:hidden;
+}
+
+
+.root{
+  font-family: "Montserrat Medium";
+}
+.search-header{
+  margin-left:30px;
+}
+.navbar{
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.75rem 2rem;
+  z-index: 1;
+  background-color:black;
+  color:white;
+  height:60px;
+  font-size:1 rem;
+  font-weight:600;
+}
+.nav-header{
+    margin-left:2px;
+}
+.nav-header a{
+    text-decoration:none;
+    color:white;
+}
+.nav-header a:hover {
+    border-bottom:2px solid white;
+  }
+.divv{
+    display:flex;
+    /* justify-content: space-between; */
+}
+/* .nav-center{
+    margin-left:auto;
+} */
+.nav-links{
+    list-style-type:none;
+    display:flex;
+    margin-left:310px;
+}
+.nav-links a{
+    display: block;
+  text-decoration:none;
+  font-size:1 rem;
+  font-weight:600;
+  margin-right:40px;
+  text-transform:uppercase;
+  color:white;
+}
+.nav-links a:hover {
+    border-bottom: 2px solid white;
+}
+
+/* imageeee of watchhhhhh */
+.main_img {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-right:0px;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    font-size:50px;
+    font-family: 'Noto Serif Makasar', serif;
+    letter-spacing: 1px;
+  }
+
+  h1 {
+    font-family: "Montserrat Medium";
+    max-width: 40ch;
+    text-align: center;
+    transform: scale(0.94);
+    animation: scale 3s forwards cubic-bezier(0.5; 1; 0.89; 1);
+  }
+  @keyframes scale {
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  span {
+    display: inline-block;
+    opacity: 0;
+    filter: blur(4px);
+  }
+  
+  span:nth-child(1) {
+    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(2) {
+    animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(3) {
+    animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(4) {
+    animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(5) {
+    animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(6) {
+    animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+
+  
+  @keyframes fade-in {
+    100% {
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
+
+
+/* REGISTERRRRRRRRRRRRRRRRRRRRRRRRRRRRR */
+.register{
+    margin-top:5px;
+    /* to enable neeche wali properties */
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:99vh;
+    flex-direction:column;
+    background:url("https://wallpaperaccess.com/full/795960.jpg");
+    /* background-repeat:no-repeat; */
+    color:white;
+}
+.btn{
+    background-color: white;
+    font-weight:20px;
+}
+
+
+/* DASHBOARDDDDDDDDDDDDDDDDDDDDD */
+.dashboard{
+  position:absolute;
+  top:50px;
+}
+
+.adminDiv{
+  position:absolute;
+  top:80px;
+}
+
+.menu{
+  position:absolute;
+  top:130px;
+  margin-left:150px;
+}
+.adminmenu{
+  width:220px;
+}
+.admincontent{
+  position:absolute;
+  top:0px;
+  margin-left:400px;
+  /* border:1px solid black; */
+}
+.borderfor{
+  border:none;
+}
+
+/* CategoryForm.js */
+.category-form{
+  display:flex;
+  justify-content: space-between;
+}
+.form-control{
+  width:280px;
+}
+.btn-form{
+ margin-left:70px;
+ height:35px;
+ padding-bottom:20px;
+ justify-content:center;
+}
+.table{
+  width:750px;
+}
+.btn-delete{
+  margin-left:50px;
+}
+.btn-edit{
+  padding-left: 17px;
+  padding-right: 17px;
+}
+@media screen and (max-width: 768px) {
+  .table{
+    width:500px;
+  }
+}
+.headingss{
+  margin-left:40px;
+  top:2px;
+}
+.create-product-form{
+  width:525px;
+}
+ 
+/* ALL PRODUCTSSSSSSSSSSSSSSSSSSSSSSSSS */
+.product-link{
+  text-decoration: none;
+  color:black ;
+}
+.cart-icon {
+  color: #ffffff; 
+  font-weight: bold;
+  font-size: 25px; 
+}
+
+
+/* PRODUCT.JS */
+.Adjustproducts{
+  border:1px solid black;
+}
+.productmaindiv{
+  margin-top:150px;
+}
+
+
+/* HOME BUTTONNNNNNNNNNNNNNNN */
+.blackButton {
+  background-color: black;
+  color: white;
+}
+
+/* serachhhhhhhhhhhhh */
+.for-search{
+  margin-right:15px;
+}
+.adjust{
+  height:25px;
+  width:190px;
+}
+.adjustbtn{
+  height:25px;
+  display:flex;
+  align-items:center;
+  font-size:1 rem;
+  font-weight:600;
+  color:white;
+  background:black;
+}
+
+/* SEARCHHHHHHHHHHHHHHHHH-JSSSSSSSSSSSSSSS */
+.searchjs{
+  top:20px;
+}
+
+/* MOREEEEEEEE DETAILSSSSSSSSS */
+.more-details{
+  margin-top:90px;
+}
+.cart{
+  font-size:17px;
+}
+
+
+/* BADGEEEEEEEEEEEEEEEE */
+
+.login{
+  border:1px solid white;
+}
+
+.product-link{
+  text-decoration: none !important;
+  color:black !important;
+}
+.footer{
+  height:200px;
+  background-color:black;
+  color:white;
+}
+
+/* MainPage.css */
+
+/* Custom style for selected checkboxes */
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: black;
+  border-color: black;
+}
+
+/* Custom style for selected radio buttons */
+.ant-radio-wrapper.ant-radio-wrapper-checked .ant-radio-inner {
+  border-color: black;
+  color:black;
+}
+
+/* Custom style for selected radio buttons (dot) */
+.ant-radio-wrapper.ant-radio-wrapper-checked .ant-radio-inner::after {
+  background-color: black;
+  color:black;
+}
+
